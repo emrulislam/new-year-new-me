@@ -21,6 +21,13 @@ section{
   font-variation-settings:"wdth" 100;
 }
 
+
+.inter-section{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing:auto;
+  font-style:normal;
+}
+
 /* Banner Design */
 .banner{
     height: 600px;
@@ -48,4 +55,29 @@ section{
     font-size: 72px;
     line-height: 95px;
     color: #ffffff;
+}
+
+/* Offer Section Design */
+
+.offer-header h1{
+    font-weight:bold;
+    font-size: 88px;
+    color: #ff0000;
+    margin-bottom: 48px;
+}
+.offer-text h2{
+    font-weight:500px ;
+    font-size:24px ;
+    color: #ff0000;
+}
+.offer-text h3{
+    font-weight:bold ;
+    font-size:48px ;
+    color:#070211 ;
+}
+.offer-text{
+    margin-bottom: 48px;
+}
+.offer-image img{
+    display: flex;
 }
