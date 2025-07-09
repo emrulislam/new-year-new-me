@@ -268,3 +268,65 @@ section{
 }
 
 /* Sale Section design */
+/* news letter section design */
+.news-letter{
+    background-color:rgba(255, 0, 0, 0.1) ;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.news-letter-image{
+    margin-bottom: 40px;
+}
+.news-letter-image img{
+    margin-top: 40px;
+}
+.news-letter-text h1{
+    font-weight: 900;
+    font-size: 48px;
+    margin-bottom: 22px;
+}
+.news-letter-text p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color:rgba(7, 2, 17,0.6);
+    margin-bottom: 48px;
+}
+.news-letter-form {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 650px;
+    margin-bottom:80px;
+}
+
+.subscribe-input {
+    flex: 1;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+}
+
+.subscribe-input::placeholder {
+    color: #999;
+}
+
+.subscribe-button {
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 0 25px 25px 0;
+    transition: background-color 0.3s;
+}
+
+.subscribe-button:hover {
+    background-color: #cc0000;
+}
